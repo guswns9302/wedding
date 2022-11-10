@@ -11587,12 +11587,12 @@ html {
   border-bottom-left-radius: 0.375rem;
 }
 
-.theme-slider:hover .carousel-control-next,
+/*.theme-slider:hover .carousel-control-next,
 .theme-slider:hover .carousel-control-prev, .theme-slider:focus .carousel-control-next,
 .theme-slider:focus .carousel-control-prev {
   color: #5e6e82;
   opacity: 0.5 !important;
-}
+}*/
 .theme-slider .carousel-control-prev,
 .theme-slider .carousel-control-next {
   width: 3rem;
@@ -11628,7 +11628,7 @@ html {
   cursor: pointer;
 }
 .theme-slider .swiper-nav [class*=swiper-] {
-  opacity: 0;
+  opacity: 0.5;
   position: absolute;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
